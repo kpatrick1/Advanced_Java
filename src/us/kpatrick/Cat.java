@@ -2,7 +2,8 @@ package us.kpatrick;
 
 /**
  * This class is for a Cat.
- * Created by mgreen14 on 12/27/17.
+ * Created by kpatr on 12/27/17.
+ * @author kpatr
  */
 public class Cat extends Pet implements Talkable {
     private int mousesKilled;
@@ -32,11 +33,18 @@ public class Cat extends Pet implements Talkable {
         mousesKilled++;
     }
 
+    /**
+     * Cat says Meow
+     */
     @Override
     public String talk() {
         return "Meow";
     }
 
+    /**
+     * Get string of mouses killed
+     * @return string Cat name='name' mousesKilled='x'
+     */
     @Override
     public String toString() {
         return "Cat: " + "name=" + name + " mousesKilled=" + mousesKilled;
