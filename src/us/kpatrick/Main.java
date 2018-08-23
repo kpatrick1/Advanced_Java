@@ -1,12 +1,10 @@
-
-
 package us.kpatrick;
 import java.util.ArrayList;
 
 /**
  *This class is the main program
- *@author kpatr
- *@version 1.0.0
+ *@author kpatr author
+ *@version 1.0.0 revision
  */
 public class Main {
 
@@ -38,7 +36,7 @@ public class Main {
     /**
      * This method shows what the person says
      * @author kpatr
-     * @param p
+     * @param p if its talkable
      */
     public static void printOut(Talkable p)  {
         System.out.println(p.getName() + " says=" + p.talk());

@@ -9,8 +9,8 @@ public class Cat extends Pet implements Talkable {
 
     /**
      * Constructor Class takes mouses killed and the Cat Name.
-     * @param mousesKilled
-     * @param name
+     * @param mousesKilled how many mouses filled
+     * @param name the name of the cat
      */
     public Cat(int mousesKilled, String name) {
         super(name);
@@ -19,15 +19,15 @@ public class Cat extends Pet implements Talkable {
 
     /**
      * This gets the number of mice killed
-     * @param none
      * @return mouses Killed
-     * @throws Nothing
-     * @exception none
      */
     public int getMousesKilled() {
         return mousesKilled;
     }
 
+    /**
+     * Increment number of mice
+     */
     public void addMouse() {
         mousesKilled++;
     }
