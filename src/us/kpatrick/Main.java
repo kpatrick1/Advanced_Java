@@ -1,7 +1,13 @@
-package us.kpatrick;
 
+
+package us.kpatrick;
 import java.util.ArrayList;
 
+/**
+ *This class is the main program
+ *@author kpatr
+ *@version 1.0.0
+ */
 public class Main {
 
     private final static FileOutput outFile = new FileOutput("animals.txt");
@@ -29,6 +35,11 @@ public class Main {
         }
     }
 
+    /**
+     * This method shows what the person says
+     * @author kpatr
+     * @param p
+     */
     public static void printOut(Talkable p)  {
         System.out.println(p.getName() + " says=" + p.talk());
         outFile.fileWrite(p.getName() + "|" + p.talk());
