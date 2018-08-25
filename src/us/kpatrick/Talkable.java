@@ -1,7 +1,9 @@
 package us.kpatrick;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * This is the talkable interface
+ * @author kpatr
+ * @version 1.2.0
  */
 public interface Talkable {
     String talk();

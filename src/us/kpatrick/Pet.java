@@ -1,7 +1,9 @@
 package us.kpatrick;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * Abstract Class for Pet
+ * @author kpatr
+ * @version 2.1.1
  */
 public abstract class Pet {
     protected String name;

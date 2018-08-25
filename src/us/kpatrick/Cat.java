@@ -2,15 +2,16 @@ package us.kpatrick;
 
 /**
  * This class is for a Cat.
- * Created by kpatr on 12/27/17.
- * @author kpatr
+ * Created by Kevin Patrick on 8/24/2018.
+ * @author Kevin_Patrick
+ * @version 1.0.1
  */
 public class Cat extends Pet implements Talkable {
     private int mousesKilled;
 
     /**
      * Constructor Class takes mouses killed and the Cat Name.
-     * @param mousesKilled how many mouses filled
+     * @param mousesKilled how many mouses killed
      * @param name the name of the cat
      */
     public Cat(int mousesKilled, String name) {
