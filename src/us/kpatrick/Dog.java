@@ -11,8 +11,8 @@ public class Dog extends Pet implements Talkable {
 
     /**
      * Constructor Class sets the friendly status of dog.
-     * @param friendly how many mouses killed
-     * @param name the name of the cat
+     * @param friendly is the dog friendly
+     * @param name the name of the dog
      */
     public Dog(boolean friendly, String name) {
         super(name);

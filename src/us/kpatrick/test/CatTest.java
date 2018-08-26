@@ -27,18 +27,24 @@ class CatTest extends PetTest {
 
     @Test
     void addMouse() {
-
+        //TESTED IN getMousesKilled
     }
 
     @Test
     void talk() {
+        Cat c = new Cat(2, "kitty");
+        assertTrue( c.talk() instanceof String);
     }
 
     //@Test
     //void toString() {
+    //    Cat c = new Cat(2,"Kitty");
+    //    assertTrue(c.toString() instanceof String);
     //}
 
     @Test
     void getName() {
+        Cat c = new Cat(2, "kitty");
+        assertTrue(c.getName() == "kitty");
     }
 }
